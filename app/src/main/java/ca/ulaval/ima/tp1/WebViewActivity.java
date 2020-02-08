@@ -18,7 +18,7 @@ public class WebViewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_web_view);
 
         String UrlToLoad = getIntent().getStringExtra("URL_TO_LOAD");
-        WebView wv= findViewById(R.id.webview1);
+        WebView wv = findViewById(R.id.webview1);
         wv.setWebViewClient(new WebViewClient());
         wv.loadUrl(UrlToLoad);
 

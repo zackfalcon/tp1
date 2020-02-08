@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         profil = new Profil("Zakaria", "Laabid",
-                new GregorianCalendar(1998,7,28), "ZALAA");
+                new GregorianCalendar(1998, 7, 28), "ZALAA");
 
-        buttonWebSiteExt =  findViewById(R.id.buttonWebSiteExt);
+        buttonWebSiteExt = findViewById(R.id.buttonWebSiteExt);
         buttonWebSiteExt.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(UrlToLoad));
@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        buttonWebSiteWv =  findViewById(R.id.buttonWebSiteWv);
+        buttonWebSiteWv = findViewById(R.id.buttonWebSiteWv);
         buttonWebSiteWv.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getBaseContext(), WebViewActivity.class);
@@ -51,7 +51,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
 
 
         buttonMyProfile = findViewById(R.id.buttonMyProfile);

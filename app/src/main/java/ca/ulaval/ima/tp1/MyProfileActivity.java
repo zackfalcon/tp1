@@ -25,8 +25,6 @@ public class MyProfileActivity extends AppCompatActivity {
 
         Intent intent = getIntent();
         Profil profilData = intent.getParcelableExtra("PROFIL_DATA");
-        System.out.println("OMG" + profilData);
-
 
         String lastName = profilData.getLastName();
         String firstName = profilData.getFirstName();
