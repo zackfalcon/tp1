@@ -12,7 +12,6 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MyProfileActivity"></activity>
-        <activity android:name=".MyProfile" />
         <activity android:name=".UlavalActivity" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".MainActivity">
